@@ -122,3 +122,55 @@ ul li{
     line-height: 26px;
     color: #727272;
 }
+/* details-section */
+.details{
+    margin-top: 130px;
+}
+.full-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-text{
+    width: 526px;
+    height: 982px;
+}
+.detail-head{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.detail-pera{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.hole-text{
+    margin-top: 30px;
+}
+.text-details{
+    padding: 30px 30px 30px 30px;
+}
+.h3-head{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.texr-detail-pera{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.details-img img{
+    width: 520px;
+    height: 1050px;
+    padding-left: 20px;
+}
+.details button{
+    text-align: center;
+}
