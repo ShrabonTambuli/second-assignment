@@ -15,7 +15,7 @@ body{
 }
 .head-text{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 53px;
     color: #131313;
 }
@@ -31,4 +31,49 @@ ul{
 }
 ul li{
     padding: 0px 35px;
+}
+/* banner-section */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    margin-top: 100px;
+    text-align: center;
+}
+.banner-text{
+    width: 862px;
+    height: 225px;
+}
+.banner-head{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #131313;
+}
+.banner-details{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #727272;
+}
+.primary-btn{
+    margin-top: 32px;
+    width: 180px;
+    height: 64px;
+    background-color:#FF900E;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner-img img{
+    margin-top: 50px;
+    width: 950px;
+    height: 440px;
 }
