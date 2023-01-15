@@ -432,9 +432,15 @@ ul li{
     flex-direction: column !important;
     margin-left: 115px !important;
 }
+.main-footer {
+    height: 118px;
+    background-color: #787878;
+}
 .f-p {
     text-align: center !important;
     font-size: 19px !important;
+    margin-top: 30px !important;
+    color: antiquewhite !important;
 }
 
 }
