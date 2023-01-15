@@ -191,8 +191,9 @@ ul li{
 .some{
     margin-top: 150px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding-left: 170px;
+    margin-left: -625px;
 }
 .some-head{
     font-weight: 700;
@@ -333,7 +334,6 @@ ul li{
 /* responsive web design */
 /* mobile device */
 @media only screen and (max-width: 688px) {
-    
     .nav-bar {
         flex-direction: column !important;
     }
@@ -433,6 +433,7 @@ ul li{
     margin-left: 115px !important;
 }
 .main-footer {
+    width: 506px;
     height: 118px;
     background-color: #787878;
 }
