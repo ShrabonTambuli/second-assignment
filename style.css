@@ -330,3 +330,111 @@ ul li{
     line-height: 23px;
     color: #424242;
 }
+/* responsive web design */
+/* mobile device */
+@media only screen and (max-width: 688px) {
+    
+    .nav-bar {
+        flex-direction: column !important;
+    }
+    .head-text {
+        font-size: 27px !important;
+    }
+    ul {
+        flex-direction: column !important;
+    }
+
+
+    .banner-head{
+       
+        font-size: 25px !important;
+        text-align: center !important;
+        line-height: 53px !important;
+       
+    }
+    .banner-details {
+        text-align: center !important;
+        width: 320px !important;
+        margin-left: 271px !important;
+        font-size: 15px !important;
+    }
+    .banner-img img{
+        width: 40% !important;
+    }
+    .group-main {
+      flex-direction: column !important;
+    }
+    .group-details {
+        width: 318px !important;
+        margin-left: -144px !important;
+        margin-top: 30px !important;
+    }
+    .group-head{
+        font-size: 35px !important;
+    }
+    .group-img {
+        display: grid ;
+        grid-template-columns: repeat(1, .1fr) !important;
+        
+        margin-left: -130px !important;
+    }
+    .full-details {
+        
+        flex-direction: column !important;
+    }
+    .detail-head{
+        font-size: 33px !important;
+        line-height: 48px !important;
+    }
+    .detail-pera {
+        width: 340px !important;
+    }
+    .text-detail-pera{
+        width: 318px !important;
+    }
+    .details-text {
+        margin-left: 200px !important;
+    }
+    .details-img{
+        margin-left: -251px !important;        
+    }
+    .details-img img {
+        width: 382px !important;
+        margin-left: 224px !important;
+    }
+    .btn3 {
+        position: absolute;
+        top: 3485px !important;
+    }
+    .some {
+        padding-left: 35px !important;
+    }
+    .rate{
+        flex-direction: column !important;
+        margin-left: 72px !important;
+}
+.extra {
+    margin-left: 20px !important;
+}
+.extra1 {
+    width: 320px !important;
+    height: 390px !important;
+}
+.sponspors-head {
+    font-size: 40px !important;
+}
+.sponspors-p {
+    font-size: 12px !important;
+    margin-left: 20px !important;
+    
+}
+.band-name {
+    flex-direction: column !important;
+    margin-left: 115px !important;
+}
+.f-p {
+    text-align: center !important;
+    font-size: 19px !important;
+}
+
+}
